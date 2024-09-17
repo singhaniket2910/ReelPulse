@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ReelPulse</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/landing-page.css">
+</head>
+
+<body>
+    <nav>
+        <p id="name">ReelPulse</p>
+        <div id="navLinks">
+            <a>Sign up</a>
+            <a>Login</a>
+        </div>
+    </nav>
+    <span id="description">"Discover detailed movie and series information, including ratings, reviews, cast, and
+        release dates."</span>
+    <div id="searchBar">
+        <select name="options" id="options">
+            <option value="all">All</option>
+            <option value="movie">Movies</option>
+            <option value="series">Web Shows</option>
+        </select>
+        <input type="text" name="search" id="search" placeholder="Enter ReelPulse" maxlength="50">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div id="suggestionContainer"></div>
+    <footer>&copy; 2024 <a href="https://linktr.ee/singhaniket2910" target="_blank" rel="noopener noreferrer">Aniket
+            Singh</a>. All rights reserved. Powered by OMDb API.</footer>
+    <script src="scripts/landing-page.js"></script>
+</body>
+
+</html>
