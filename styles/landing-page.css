@@ -68,9 +68,9 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    &>select,
-    &>input,
-    &>button {
+    & select,
+    & input,
+    & button {
         box-sizing: border-box;
         border: none;
         outline: none;
@@ -78,7 +78,7 @@ nav {
         font-size: 2rem;
     }
 
-    &>select {
+    & select {
         font-size: 1.5rem;
         text-align: center;
         padding-left: 0.5rem;
@@ -86,16 +86,20 @@ nav {
         border-radius: 2rem 0 0 2rem;
     }
 
-    &>input {
+    & input {
         padding: 1rem;
         width: 40vw;
     }
 
-    &>button {
+    & button {
         aspect-ratio: 1/1;
         background-color: white;
         border-radius: 0 2rem 2rem 0;
         cursor: pointer;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -125,7 +129,7 @@ nav {
         background-color: #2b2b2b;
     }
 
-    &>img {
+    & img {
         margin: 1rem 0;
         width: 7.5vw;
     }
@@ -149,7 +153,7 @@ footer {
     align-content: center;
     border-radius: 0.5rem 0.5rem 0 0;
 
-    &>a {
+    & a {
         text-decoration: none;
         color: inherit;
     }
